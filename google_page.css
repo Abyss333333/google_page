@@ -1,0 +1,111 @@
+.Logo {
+    position:relative;
+    top: 100px; left: 600px;
+    margin: 10px;
+    
+  }
+  
+  .search{
+    width:700px;
+    height:40px;
+    background-color: white;
+    border: 2px solid Gainsboro;
+    position:absolute;
+    bottom: -25px;
+    left:-85px;
+    margin:10px;
+  }
+  
+  .search:hover{
+    box-shadow: 3px 3px Silver;
+  }
+  
+  .Sbtn, .Ibtn {
+    width:150px;height:40px;
+    position:absolute;
+    border: none ;
+    background: Whitesmoke;
+    top: 240px;
+   }
+  .Sbtn:hover, .Ibtn:hover {
+    border: 1px solid Gainsboro;
+    font-weight: bold;
+   }
+  
+  .Sbtn{left: 110px;}
+  .Ibtn{left: 280px;}
+  
+  .navigation ul li{
+    display: inline-block;
+    padding: 10px;
+    color:black;
+    position:relative;
+    bottom: 230px;
+    font-size: 12px;
+    
+    
+  }
+  
+  a.Gmail:hover, a.img:hover{
+    text-decoration: underline;
+    
+  }
+  
+  .navigation a {
+    color:black;
+    text-decoration:none;
+  }
+
+  .icon{
+      opacity: 0.5;
+  }
+
+  .icon:hover{
+      opacity:1;
+  }
+  
+  #Sign_in{
+    border:none;
+    color:White;
+    background: DodgerBlue;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  #Sign_in:hover{
+    text-decoration:underline;
+  }
+  
+  .footer ul.bottom{
+    background: whitesmoke;
+    position:relative;
+    top:530px;
+    border: 1px solid gainsboro;
+    font-size: 12px;
+    
+  }
+  .footer ul.top{
+    background: whitesmoke;
+    position:relative;
+    top:434px;
+    border: 1px solid gainsboro;
+    font-size: 12px;
+    
+    
+  }
+  .footer li {
+    list-style-type: none;
+    display: inline-block;
+    padding:10px;
+    }
+
+  .footer a{
+        text-decoration:none;
+        color:dimgray;
+    }
+  
+  .privacy, .Settings, .Terms{
+    position:relative;
+    left:180px;
+  }
